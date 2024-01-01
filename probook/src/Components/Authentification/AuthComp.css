@@ -1,0 +1,271 @@
+body{
+    background-color: #f0f2f5;
+    
+}
+
+/*   Login Form start */
+/* Left component */
+.Lcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+ 
+}
+
+.LcontainerItems1{
+    margin-top: 11rem;
+ 
+}
+.LLogoOfFacebook{
+    color: #0866ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.LLogoPhrase{
+     margin: 10px;
+     padding: 0px;
+    display: flex;
+    font-weight:400;
+    font-size: 2rem;
+}
+
+/* Right component */
+
+.LcontainerItems2{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    }
+
+.LLoginFrm{
+    border: 5px solid #e9eaec56;
+    border-style: groove;
+    padding: 1rem;
+    margin-right: 9rem;
+    margin-top: 7rem ;
+     display: grid;
+      background-color: #ffffff;
+     grid-template-columns: auto;   
+     border-radius: 10px;
+     height: 20rem;
+    
+}
+
+.LLoginFrm input,button{
+    width: 22rem;
+    height: 3rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #e9eaec;
+}
+
+.LLoginFrm #Lcreate{
+     background-color: #42b72a;
+     color: #fff;
+    }
+
+.LLoginFrm #Lsubmit{
+    color: #fff;
+    
+    background-color: #1877f2;
+}
+.LLoginFrm #Lsubmit:hover{
+    background-color: #146ada;
+cursor: pointer;
+}
+.LLoginFrm #Lcreate:hover{
+    background-color: #269610;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 992px) {
+    .Lcontainer{
+        display: grid;
+        grid-template-columns: auto;
+
+     
+    }
+    .LcontainerItems2{
+        margin: auto 10%;
+    }
+
+
+}
+
+
+
+/* Create Form */
+
+.CcontainerItems{
+    border:2px solid #dadae0;
+    margin: 5% 35%;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+hr{
+    width: 100%;
+}
+.CcontainerItems h5{
+    text-align: left;
+    margin: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.CcontainerItems h6{
+    text-align: left;
+    margin: 0.5rem 1rem;
+
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.CcontainerItems .CcloseImg{
+    float: inline-end;
+    margin: 2rem;
+      width: 2rem;
+      height: 2rem;
+}
+    
+.CcontainerItems input{
+    padding: 0.5rem;
+    margin: 0.6rem;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    border: 1px solid #dadae0;
+}
+.CcontainerItems .CfullInput1{
+    width: 35%;
+}
+
+.CcontainerItems .CfullInput2{
+    width: 80%;
+    display: block;
+    margin-left: 8%;
+}
+
+.CcontainerItems button{
+    background-color: #00a400;
+    color: #fff;
+    font-weight: bold;
+}
+
+.CcontainerItems .CinputContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    border: 1px solid  #dadae0;
+    padding: 2%;
+    margin: 3%;
+}
+
+.CcontainerItems .Cdob,.Cgender{
+    text-align: left;
+    margin-left:4%;
+}
+
+
+/* forget page start */
+
+.FcontainerItem1{
+    display: flex;
+    height: 4rem;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+.FcontainerItem1 .LLogoOfFacebook{
+    font-size: 2rem;
+    margin: 1%;
+
+}
+
+.frm1 input{
+    width: 9rem;
+    margin: auto 0.7rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    background-color: #e8f0fe;
+    border: 1px solid #ced0d4;
+    border-radius: 5px;
+}
+
+.frm1 button{
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    width: 6rem;
+    background-color: #1b74e4;
+    border: 1px solid #ced0d4;
+}
+
+.frm1{
+    margin-left: 40%;
+    float: right;
+}
+
+
+
+.FcontainerItem2{
+    margin: 6% 25%;
+    border: 1px solid #ced0d4;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.FcontainerItem2 h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 7%;
+    text-align: left;
+}
+
+.FcontainerItem2 p{
+    font-size: 1rem;
+    text-align: left;
+    margin: 0px 7%;
+}
+
+.FcontainerItem2 input{
+    width: 80%;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: block;
+    margin: 2rem 10%;
+    border: 1px solid #ced0d4;;
+}
+
+.FcontainerItem2 button{
+    width: 8rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.FcontainerItem2 .Fsearchbtn{
+    background-color: #42b72a;    
+}
+
+.FcontainerItem2 .Fcancelbtn{
+    background-color: #f11919;    
+}
+
+.FcontainerItem2 hr{
+    color: #ced0d4;;
+}
+
+@media screen and (max-width: 1300px) {
+    .frm1{
+       visibility: hidden;
+    }
+    .FcontainerItem2{
+        margin: auto 3%;
+    }
+}
